@@ -1,10 +1,12 @@
 # E-Commerce Sales Analytics Project | Microsoft Excel
 
-An end-to-end E-Commerce Business Analytics project developed using Microsoft Excel, covering data cleaning, business analysis, customer intelligence, inventory analysis, and interactive dashboard reporting.
+An end-to-end E-Commerce Business Analytics project developed using Microsoft Excel. This project covers data cleaning, data modelling, business analysis, customer intelligence, inventory evaluation, and interactive dashboard reporting.
 
 ## Project Overview
 
-The objective of this project is to transform raw e-commerce data into meaningful business insights and provide management with a clear view of sales performance, profitability, customer behaviour, product performance, and operations.
+The objective of this project is to transform raw e-commerce data into meaningful business insights and support management decision-making through analytical reporting and interactive dashboards.
+
+The project includes raw and cleaned datasets, 16 business analysis areas, and five interactive dashboard reports.
 
 ## Tools & Technologies
 
@@ -13,16 +15,17 @@ The objective of this project is to transform raw e-commerce data into meaningfu
 - PivotTables and PivotCharts
 - Excel Data Model and Relationships
 - Slicers and Interactive Filters
-- Data Cleaning and Business Analysis
+- Data Cleaning
+- Business and Customer Analytics
 
-## Dataset
+## Dataset Description
 
 The project uses four datasets:
 
 | Dataset | Description |
 |---|---|
-| Orders | Order transactions, sales, quantity, discount and profit |
-| Customers | Customer information and segmentation |
+| Orders | Order transactions, sales, quantity, discounts and profit |
+| Customers | Customer details and segmentation |
 | Products | Product categories, pricing and inventory |
 | Returns | Return transactions and refund information |
 
@@ -35,35 +38,37 @@ The project uses four datasets:
 
 ### 1. Executive Dashboard
 
-Overall business performance, sales, profit, orders, customers and key business indicators.
+Provides an overview of business performance through key metrics, sales, profit, orders, customers, and other business indicators.
 
-![Executive Dashboard](01_Executive_Dashboard.png)
+![Executive Dashboard](Dashboard_Screenshots/01_Executive_Dashboard.png)
 
 ### 2. Sales & Profit Dashboard
 
-Sales trends, profitability, category performance and discount-related insights.
+Analyzes sales trends, profitability, category performance, and discount-related insights.
 
-![Sales Profit Dashboard](02_Sales_Profit_Dashboard.png)
+![Sales & Profit Dashboard](Dashboard_Screenshots/02_Sales_Profit_Dashboard.png)
 
 ### 3. Customer Intelligence Dashboard
 
-Customer performance, retention, RFM segmentation and churn analysis.
+Focuses on customer performance, retention, RFM segmentation, and churn analysis.
 
-![Customer Intelligence Dashboard](03_Customer_Intelligence_Dashboard.png)
+![Customer Intelligence Dashboard](Dashboard_Screenshots/03_Customer_Intelligence_Dashboard.png)
 
 ### 4. Product & Inventory Dashboard
 
-Product performance, inventory levels, product status and stock-related insights.
+Evaluates product performance, inventory levels, product status, and stock-related risks.
 
-![Product Inventory Dashboard](04_Product_Inventory_Dashboard.png)
+![Product & Inventory Dashboard](Dashboard_Screenshots/04_Product_Inventory_Dashboard.png)
 
 ### 5. Regional & Operations Dashboard
 
-Regional performance, shipping operations, returns and sales channel analysis.
+Analyzes regional performance, shipping operations, returns, and sales channel performance.
 
-![Regional Operations Dashboard](05_Regional_Operations_Dashboard.png)
+![Regional & Operations Dashboard](Dashboard_Screenshots/05_Regional_Operations_Dashboard.png)
 
 ## Business Analysis Areas
+
+The project covers the following 16 analysis areas:
 
 1. Sales Analysis
 2. Profitability Analysis
@@ -86,32 +91,48 @@ Regional performance, shipping operations, returns and sales channel analysis.
 
 - Total Sales: ₹112.21 Crore
 - Total Profit: ₹36.63 Crore
-- Profit Margin: Approximately 32.64%
+- Overall Profit Margin: Approximately 32.64%
 - Customer retention was evaluated across multiple cohort periods.
-- Discontinued inventory and potential stock risks were investigated.
-- Discount-related profitability and regional performance were evaluated.
+- Discount-related profitability was investigated.
+- Discontinued inventory and potential stock risks were identified.
 - Sales forecasting was performed using a 3-month moving average.
 
 ## Interactive Dashboard Features
 
 - Year-based filtering
-- Region and category filters
-- Customer segment filters
+- Region, category, and customer segment filters
 - Interactive KPI cards and charts
 - Business performance comparisons
+- Dashboard-level filtering and exploration
+
+## Repository Structure
+
+```text
+ecommerce-sales-analytics-excel/
+│
+├── Raw_Dataset.xlsx
+├── Clean_Dataset.xlsx
+│
+├── Dashboard_Screenshots/
+│   ├── 01_Executive_Dashboard.png
+│   ├── 02_Sales_Profit_Dashboard.png
+│   ├── 03_Customer_Intelligence_Dashboard.png
+│   ├── 04_Product_Inventory_Dashboard.png
+│   └── 05_Regional_Operations_Dashboard.png
+│
+└── README.md
+```
 
 ## How to Explore
 
 1. Download the raw dataset to explore the original data.
 2. Download the cleaned dataset to explore the prepared data.
-3. View the dashboard screenshots for a visual overview.
-4. Review the business analysis areas to understand the scope of the project.
+3. View the dashboard previews above.
+4. Review the analysis areas to understand the business questions covered by the project.
 
 ## Project Objective
 
-This project demonstrates practical Excel skills in data cleaning, data modelling, business analysis, dashboard development, and management reporting.
-
----
+This project demonstrates practical Microsoft Excel skills in data cleaning, data modelling, business analysis, dashboard development, and management reporting.
 
 **Project Category:** E-Commerce Business Analytics  
-**Tool:** Microsoft Excel
+**Primary Tool:** Microsoft Excel
